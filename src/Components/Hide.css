@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hide {
+  text-align: center;
+  margin: 10px 20%;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
