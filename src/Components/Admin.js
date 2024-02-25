@@ -5,13 +5,13 @@ function Admin() {
         <div>
             <div className="admin_app">
                 <h2>Hello React</h2>
-                <label htmlFor="">Name</label>
+                <label htmlFor="">Name: </label>
                 <input type="text" />
                 <br />
-                <label htmlFor="">Name</label>
+                <label htmlFor="">Name: </label>
                 <input type="text" />
                 <br />
-                <label htmlFor="">Name</label>
+                <label htmlFor="">Name: </label>
                 <input type="text" />
             </div>
         </div>
