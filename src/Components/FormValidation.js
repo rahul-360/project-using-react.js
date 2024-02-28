@@ -7,16 +7,17 @@ function FormValidation() {
     const [passErr, setPassErr] = useState(false);
 
     function loginHandle(e) {
-        if (user.length < 3 || password.length < 3)
-        {
+        if (user.length < 3 || password.length < 3) {
             alert('Type correct value');
         }
-        else{
+        else {
             alert("all good");
         }
-            // alert("Hello");
-            e.preventDefault();
+        // alert("Hello");
+        e.preventDefault();
     }
+
+    // user id validation
     function userHandler(e) {
         let item = e.target.value.length;
         if (item < 3) {
