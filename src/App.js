@@ -1,4 +1,5 @@
 import './App.css';
+import Render from './LifeCycleMethod/RenderMethod';
 // import User from './Components/User';
 // import Admin from './Components/Admin';
 // import NewUser from './Components/NewUser';
@@ -10,15 +11,16 @@ import './App.css';
 // import Condition from './Components/Condition';
 // import FormValidation from './Components/FormValidation';
 // import ClickEvent from './Components/ClickEvent';
-import UseState from './Components/UseState';
-import FunctionAsProps from './Components/FunctionAsProps';
+// import UseState from './Components/UseState';
+// import FunctionAsProps from './Components/FunctionAsProps';
 
-
+// import Constructor from './LifeCycleMethod/Constructor';
+// import RenderMethod from './LifeCycleMethod/RenderMethod';
 function App() {
 
-  function getdata() {
-    alert("HELLO");
-  }
+  // function getdata() {
+  //   alert("HELLO");
+  // }
 
   return (
     <>
@@ -38,8 +40,11 @@ function App() {
       {/* <Condition /> */}
       {/* <FormValidation /> */}
       {/* <ClickEvent /> */}
-      <UseState data={getdata} />
-      <FunctionAsProps data={getdata} />
+      {/* <UseState data={getdata} /> */}
+      {/* <FunctionAsProps data={getdata} /> */}
+
+      {/* <Constructor /> */}
+      {/* <RenderMethod /> */}
     </>
   );
 }
