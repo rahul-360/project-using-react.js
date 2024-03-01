@@ -14,8 +14,8 @@ import Render from './LifeCycleMethod/RenderMethod';
 // import UseState from './Components/UseState';
 // import FunctionAsProps from './Components/FunctionAsProps';
 
-// import Constructor from './LifeCycleMethod/Constructor';
-// import RenderMethod from './LifeCycleMethod/RenderMethod';
+import Constructor from './LifeCycleMethod/Constructor';
+import RenderMethod from './LifeCycleMethod/RenderMethod';
 function App() {
 
   // function getdata() {
@@ -43,8 +43,8 @@ function App() {
       {/* <UseState data={getdata} /> */}
       {/* <FunctionAsProps data={getdata} /> */}
 
-      {/* <Constructor /> */}
-      {/* <RenderMethod /> */}
+      <Constructor />
+      <RenderMethod />
     </>
   );
 }
