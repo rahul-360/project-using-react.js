@@ -1,4 +1,4 @@
-import { click } from '@testing-library/user-event/dist/click';
+// import { click } from '@testing-library/user-event/dist/click';
 import './ClickEvent.css';
 import React from 'react';
 
@@ -14,6 +14,10 @@ function ClickEvent() {
             <button onClick={() => alert("Hello React 2.0")}>Click me 2</button>
             <br /><br />
             <button onClick={() => Clickme()}>Click me 3</button>
+            <br /><br />
+            <button onClick={() => alert("Hello React 4.0")}>Click me 4</button>
+            <br /><br />
+            <button onClick={() => Clickme()}>Click me 5</button>
         </div>
     )
 }
